@@ -101,8 +101,8 @@ export const path_fashion: Map<number, ActionTypes> = new Map([
   ],
   [3,
     {
-      image: "../../uMakeItGran/assets/pic//final/Bedroom.png",
-      text: "",
+      image: "../../assets/pic//final/Bedroom.png",
+      text:"",
       decision: [
         {
           id: 0,
