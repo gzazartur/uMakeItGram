@@ -49,16 +49,16 @@ export function isActionPopup(action: ActionTypes): action is ActionPopUp {
 }
 
 export const ending_src = [
-  "../../uMakeItGran/uMakeItGran/assets/pic/final/ending/goodEnding.jpg",
-  "../../uMakeItGran/uMakeItGran/assets/pic/final/ending/badEnding.jpg",
-  "../../uMakeItGran/uMakeItGran/assets/pic/final/ending/ending.jpg",
+  "../../uMakeItGran/assets/pic/final/ending/goodEnding.jpg",
+  "../../uMakeItGran/assets/pic/final/ending/badEnding.jpg",
+  "../../uMakeItGran/assets/pic/final/ending/ending.jpg",
 ]
 
 
 export const path_fashion: Map<number, ActionTypes> = new Map([
   [0,   
     {
-      image: "../../uMakeItGran/uMakeItGran/assets/pic/fi/Rdesktop.png",
+      image: "../../uMakeItGran/assets/pic/fi/Rdesktop.png",
       text: "ELIZA: Sehr gute Wahl! Das Thema ist gerade sehr aktuell.  Dein Beitrag hat gute Chancen, viral zu gehen",
       nextStep:1,
       type: ActionType.ACTION
@@ -66,7 +66,7 @@ export const path_fashion: Map<number, ActionTypes> = new Map([
   ],
   [1,
     {
-      image: "./../uMakeItGran/uMakeItGran/assets/pic/fi/branded.png",
+      image: "./../uMakeItGran/assets/pic/fi/branded.png",
       text: "ELIZA: Ich hab deinen ersten Post vorbereitet. Sag mir gerne was du davon hältst. Ich übernehme dann das Hochladen, wenn alles passt. Mal sehen, wie er ankommt. Mach doch so lange etwas anderes.",
       nextStep: 2,
       type: ActionType.ACTION
@@ -75,7 +75,7 @@ export const path_fashion: Map<number, ActionTypes> = new Map([
   ],
   [2,
     {
-      image: "./../uMakeItGran/uMakeItGran/assets/pic/final/Bedroom.png",
+      image: "./../uMakeItGran/assets/pic/final/Bedroom.png",
       text: "",
       decision: [
         {
@@ -101,7 +101,7 @@ export const path_fashion: Map<number, ActionTypes> = new Map([
   ],
   [3,
     {
-      image: "../../assets/pic//final/Bedroom.png",
+      image: "../../uMakeItGran/assets/pic/final/Bedroom.png",
       text:"",
       decision: [
         {
