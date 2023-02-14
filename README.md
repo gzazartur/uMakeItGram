@@ -1,4 +1,4 @@
-# UMakeItGran
+# uMakeItGram
 
 ## Vorraussetzungen
 
