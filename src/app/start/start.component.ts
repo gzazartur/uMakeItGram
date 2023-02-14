@@ -14,7 +14,7 @@ export class StartComponent implements OnInit {
   showButton = false;
   source;
   arrayStep: number = 0;
-  picPath: string = "../../" + environment.assetUrl + "/start.jpg";
+  textSpeed: number = 15;
   texts: string[] = [
     "ELIZA:",
     "Hallo Clara!",
