@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { textSpeed } from '../model/text';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-start',
@@ -15,6 +16,7 @@ export class StartComponent implements OnInit {
   source;
   arrayStep: number = 0;
   textSpeed: number = 60;
+  picPath: string = "../../" + environment.assetUrl + "/start.jpg";
   texts: string[] = [
     "Hallo Clara! Ich habe gehört, dass du dein Abitur dieses Jahr geschafft hast. Glückwunsch dazu! Hast du dir schon Gedanken gemacht, wie es jetzt weiter geht?",
     "Hi Eliza. Ja, … Nein, … Ach.. Ich weiß nicht so recht. Ich wollte eigentlich ins Ausland für ein paar Monate, das klappt jetzt aber leider nicht. Ich überlege, ob ich vielleicht studieren will aber da weiß ich auch nicht so genau.. Ich bin momentan ein bisschen überfordert. Können wir nicht über etwas anderes sprechen?",
