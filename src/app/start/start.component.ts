@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { textSpeed } from '../model/text';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-start',
@@ -76,6 +77,7 @@ export class StartComponent implements OnInit {
   ];
 
   text: string = this.texts[this.arrayStep];
+  picPath: string = "../../" + environment.assetUrl + "/start.jpg";
 
   constructor(private router: Router) {
     this.source = setInterval(() => {this.showText =  this.text.slice(0,this.textStep); this.textStep++}, this.textSpeed);
